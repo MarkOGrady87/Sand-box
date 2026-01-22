@@ -1,10 +1,13 @@
-import React from 'react';
+import React from "react";
 
 const ToDoListIndex = () => {
-    
-    return (
-        <p>This is a To Do List!</p>
-    )
-}
+  return (
+    <>
+      <div className="card">
+        <p> To Do List</p>
+      </div>
+    </>
+  );
+};
 
-export default Task;
+export default ToDoListIndex;
